@@ -215,7 +215,7 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(620800281) then
+if tonumber(user_id) == tonumber(156033198) then
 var = 'مطور السورس 👨🏻‍🔧'  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'االمطور الاساسي 👨🏻‍💻'  
@@ -2030,13 +2030,15 @@ end
 
 if text == 'السورس' or text == 'يورس' or text == 'يا سورس' then
 Text = [[
-📮¦ Welcome to private soruce
-┄─━━◉━━─┄┄─━━◉━━─┄
-🔭¦ ➥ [channel soruce](t.me/KALER500K)
+🔰 Welcome to Source 🔰
 
-🤖¦ ➥ [Tawsl soruce](t.me/RIOKNBOT)
-
-📍¦ ➥ [developer soruce](t.me/Jll_il)
+🌐┇KALERTEAM 
+┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
+📊┇ [Source Channel](https://t.me/KLERTEM)
+ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ 
+📧┇ [TWS SAKURA](https://t.me/SAKURATEM_BOT)
+ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
+[DEV SAKURA](https://t.me/MMM_Mk)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
