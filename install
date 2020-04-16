@@ -19,10 +19,10 @@ sudo apt-get install libstdc++6 -y
 sudo apt-get install lua-lgi -y
 sudo apt-get install libnotify-dev -y
 sudo chmod +x tg
-lua BESSO.lua
+lua KALER.lua
 sudo chmod +x KALER
-sudo chmod +x ./KR
-./BS
+sudo chmod +x ./KRl
+./KR
 }
 if [ "$1" = "install" ]; then
 install
@@ -32,8 +32,8 @@ echo "Tg Is Not Found"
 exit 1
 fi
 sudo chmod +x tg
-lua BESSO.lua
+lua KALER.lua
 sudo chmod +x KALER
 sudo chmod +x ./KR
-./BS
+./BR
 fi
